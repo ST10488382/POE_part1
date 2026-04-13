@@ -15,7 +15,7 @@ namespace POE_part1
             //get the base directory and remove bin\Debug\ to get project folder
             string base_directory = AppDomain.CurrentDomain.BaseDirectory;
 
-           // build the full path to the audio file witgh
+           // build the full path to the audio file with wav.
             string audio_path = base_directory.Replace(@"bin\Debug\", "") + "Display.wav";
 
             //calling the play audio method
@@ -53,7 +53,7 @@ namespace POE_part1
             //replace bin\Debug\ with Display.jpg to get the logo path
             string full_path = path_logo.Replace(@"\bin\Debug\", @"\Display.jpg").ToString();
 
-            //path of the logo
+            //path of the logo and bitmap settings
             string path = full_path;
             Bitmap image = new Bitmap(path);
 
