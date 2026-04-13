@@ -65,7 +65,7 @@ namespace POE_part1
             //ascii characters used to represent pixel brightness
             string asciiChars = "@#S%?*+;:,. ";
 
-            //start by the height
+            //start by the height settings
             for (int y = 0; y < resized.Height; y++)
             {
                 //then width
