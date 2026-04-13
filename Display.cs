@@ -15,7 +15,7 @@ namespace POE_part1
             //get the base directory and remove bin\Debug\ to get project folder
             string base_directory = AppDomain.CurrentDomain.BaseDirectory;
 
-            //build the full path to the audio file
+           // build the full path to the audio file witgh
             string audio_path = base_directory.Replace(@"bin\Debug\", "") + "Display.wav";
 
             //calling the play audio method
