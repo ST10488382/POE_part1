@@ -1,0 +1,20 @@
+name: Build .NET Framework App
+
+on:
+ push:
+  branches: [ "master" ]
+
+   jobs:
+     build:
+      runs-on: windows-lates
+
+steps:
+- uses: actions/chekout@v4
+
+- uses: microsoft/setup-msbuild@v2
+
+- uses: NuGet/setup-nuget@v2
+
+- name: Build
+run: msbuild "POE_part1.csproj" /p:Confiduration=Release
+  
