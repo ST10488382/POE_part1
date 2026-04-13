@@ -12,7 +12,7 @@ namespace POE_part1
         //array of keywords the chatbot can recognise
         private string[] keywords = { "how are you", "purpose", "what can i ask", "password", "phishing", "safe browsing" };
 
-        //array of responses matching the keywords
+        //array of cybersecurity responses matching the keywords 
         private string[] responses =
         {
             "I am doing great thank you for asking! I am always ready to help you stay safe online.",
