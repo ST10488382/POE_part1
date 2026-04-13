@@ -93,6 +93,7 @@ namespace POE_part1
             Console.ForegroundColor = ConsoleColor.Green;
 
             //set color for the bot title border
+            //setting of display in the main manu
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("  +-*--#--*--#--*--#--*--#--*--#--*--#--*--#--*--#--*--#--*--#--*");
             Console.WriteLine("                                                                 |");
